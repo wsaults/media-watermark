@@ -12,7 +12,7 @@ import AVFoundation
 let kMediaContentDefaultScale: CGFloat = 1
 let kProcessedTemporaryVideoFileName = "/processed.mov"
 let kMediaContentTimeValue: Int64 = 1
-let kMediaContentTimeScale: Int32 = 30
+let kMediaContentTimeScale: Int32 = 60
 
 extension MediaProcessor {
     func processVideoWithElements(item: MediaItem, completion: @escaping ProcessCompletionHandler) {
