@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MediaWatermark'
+  s.name             = 'MediaWatermark-wsaults'
   s.version          = '0.4.0'
   s.summary          = 'iOS watermark library'
 
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 MediaWatermark is a GPU/CPU-based iOS watermark library for overlays adding to video or images               
         DESC
 
-  s.homepage         = 'https://github.com/rubygarage/media-watermark'
+  s.homepage         = 'https://github.com/wsaults/media-watermark'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sergey Afanasiev' => 'sergey.afanasiev@rubygarage.org' }
-  s.source           = { :git => 'https://github.com/rubygarage/media-watermark.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wsaults/media-watermark.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
