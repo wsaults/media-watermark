@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MediaWatermark-wsaults'
-  s.version          = '0.4.0'
+  s.version          = '0.0.1'
   s.summary          = 'iOS watermark library'
 
 # This description is used to generate tags and improve search results.
